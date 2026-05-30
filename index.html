@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privatlivspolitik – Flotmand</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    }
+
+    header { margin-bottom: 2.5rem; border-bottom: 1px solid #e5e5ea; padding-bottom: 1.5rem; }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #1d1d1f;
+    }
+
+    header p {
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+      color: #6e6e73;
+    }
+
+    section { margin-bottom: 2.25rem; }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: #1d1d1f;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.8rem;
+      height: 1.8rem;
+      background: #0071e3;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 0.6rem; color: #3a3a3c; font-size: 0.97rem; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0;
+    }
+
+    ul li {
+      padding: 0.3rem 0 0.3rem 1.4rem;
+      position: relative;
+      color: #3a3a3c;
+      font-size: 0.97rem;
+    }
+
+    ul li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+      color: #0071e3;
+      font-weight: 600;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.75rem;
+      font-size: 0.93rem;
+    }
+
+    th {
+      background: #f0f4ff;
+      color: #1d1d1f;
+      font-weight: 600;
+      text-align: left;
+      padding: 0.65rem 1rem;
+      border: 1px solid #d1d1d6;
+    }
+
+    td {
+      padding: 0.6rem 1rem;
+      border: 1px solid #d1d1d6;
+      color: #3a3a3c;
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) td { background: #fafafa; }
+
+    a { color: #0071e3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid #e5e5ea;
+      margin: 2rem 0;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e5e5ea;
+      font-size: 0.85rem;
+      color: #6e6e73;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privatlivspolitik</h1>
+      <p>Flotmand &nbsp;·&nbsp; Sidst opdateret: 30. maj 2026</p>
+    </header>
+
+    <section>
+      <h2><span class="num">1</span> Dataansvarlig</h2>
+      <p><strong>Flotmand</strong><br>
+         Udvikler: Zlatan Stadler<br>
+         Kontakt: <a href="mailto:zeefmusic@gmail.com">zeefmusic@gmail.com</a></p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">2</span> Hvilke data vi indsamler</h2>
+      <p>Når du bruger Flotmand, indsamler vi følgende oplysninger:</p>
+      <ul>
+        <li><strong>Navn og profilbillede</strong> — fra din Google-konto ved login</li>
+        <li><strong>E-mailadresse</strong> — fra din Google-konto ved login</li>
+        <li><strong>Bruger-ID</strong> — et unikt ID genereret af Firebase til din konto</li>
+        <li><strong>Enheds-token</strong> — til udsendelse af push-notifikationer via Firebase Cloud Messaging</li>
+        <li><strong>Begivenhedsdata</strong> — begivenheder du opretter eller deltager i, herunder titel, beskrivelse og tidspunkt</li>
+        <li><strong>Stemmedata</strong> — dine stemmer og reaktioner på begivenheder</li>
+      </ul>
+      <p style="margin-top:0.75rem;">Vi indsamler ikke din lokation. Kortfunktionalitet håndteres udelukkende lokalt på din enhed.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">3</span> Formål og retsgrundlag</h2>
+      <p>Vi behandler dine data til følgende formål:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Formål</th>
+            <th>Retsgrundlag</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Oprettelse og administration af din konto</td>
+            <td>Opfyldelse af aftale (GDPR art. 6, stk. 1, litra b)</td>
+          </tr>
+          <tr>
+            <td>Visning af begivenheder og profiler</td>
+            <td>Opfyldelse af aftale</td>
+          </tr>
+          <tr>
+            <td>Afsendelse af push-notifikationer</td>
+            <td>Samtykke (GDPR art. 6, stk. 1, litra a)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">4</span> Tredjeparter</h2>
+      <p>Vi anvender følgende tredjepartstjenester, som kan modtage dine data:</p>
+      <ul>
+        <li><strong>Google Firebase</strong> (Firebase Auth, Firestore, Cloud Messaging) — databehandling sker inden for EU/EØS eller med passende garantier. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Googles privatlivspolitik</a></li>
+        <li><strong>Google Sign-In</strong> — til autentifikation</li>
+        <li><strong>Google Maps</strong> — til visning af kort. Kortdata behandles lokalt og sendes ikke til vores servere</li>
+      </ul>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">5</span> Opbevaring af data</h2>
+      <p>Dine data opbevares så længe din konto er aktiv. Du kan til enhver tid anmode om sletning af din konto og tilhørende data ved at kontakte os på <a href="mailto:zeefmusic@gmail.com">zeefmusic@gmail.com</a>.</p>
+      <p>Data slettes inden 30 dage efter anmodning.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">6</span> Dine rettigheder</h2>
+      <p>Under GDPR har du ret til at:</p>
+      <ul>
+        <li><strong>Indsigt</strong> — få oplyst hvilke data vi behandler om dig</li>
+        <li><strong>Berigtigelse</strong> — få rettet ukorrekte oplysninger</li>
+        <li><strong>Sletning</strong> — få slettet dine data ("retten til at blive glemt")</li>
+        <li><strong>Dataportabilitet</strong> — modtage dine data i et maskinlæsbart format</li>
+        <li><strong>Indsigelse</strong> — gøre indsigelse mod behandling</li>
+        <li><strong>Klage</strong> — indgive klage til <a href="https://www.datatilsynet.dk" target="_blank" rel="noopener">Datatilsynet</a></li>
+      </ul>
+      <p style="margin-top:0.75rem;">For at udøve dine rettigheder, kontakt os på <a href="mailto:zeefmusic@gmail.com">zeefmusic@gmail.com</a>.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">7</span> Sikkerhed</h2>
+      <p>Vi anvender Firebase's sikkerhedsinfrastruktur til at beskytte dine data, herunder kryptering under transport og i hvile.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">8</span> Ændringer til denne politik</h2>
+      <p>Vi kan opdatere denne privatlivspolitik. Ved væsentlige ændringer vil du blive notificeret via appen. Den seneste version er altid tilgængelig via appen og Play Store.</p>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">9</span> Kontakt</h2>
+      <p>Har du spørgsmål til denne privatlivspolitik?<br>
+         E-mail: <a href="mailto:zeefmusic@gmail.com">zeefmusic@gmail.com</a></p>
+    </section>
+
+    <footer>
+      &copy; 2026 Flotmand · Zlatan Stadler
+    </footer>
+  </div>
+</body>
+</html>
