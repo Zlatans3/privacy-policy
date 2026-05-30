@@ -135,6 +135,19 @@
     }
     .delete-btn:hover { background: #d93025; text-decoration: none; }
 
+    .partial-btn {
+      display: inline-block;
+      margin-top: 0.9rem;
+      padding: 0.6rem 1.4rem;
+      background: #0071e3;
+      color: #fff;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .partial-btn:hover { background: #0060c0; text-decoration: none; }
+
     footer {
       margin-top: 2.5rem;
       padding-top: 1.5rem;
@@ -223,6 +236,20 @@
       <p>Dine data opbevares så længe din konto er aktiv. Du kan til enhver tid anmode om sletning af din konto og alle tilhørende data.</p>
       <p>Data slettes inden 30 dage efter anmodning.</p>
       <a class="delete-btn" href="mailto:zeefmusic@gmail.com?subject=Anmodning%20om%20kontosletning">Anmod om sletning af konto</a>
+    </section>
+
+    <hr class="divider">
+
+    <section>
+      <h2><span class="num">5b</span> Sletning af specifikke data (uden kontosletning)</h2>
+      <p>Du kan anmode om sletning af bestemte data uden at slette din konto. Følgende datatyper kan slettes separat:</p>
+      <ul>
+        <li><strong>Begivenhedsdata</strong> — begivenheder du har oprettet eller deltaget i</li>
+        <li><strong>Stemmer og reaktioner</strong> — dine stemmer på begivenheder</li>
+        <li><strong>Enheds-token</strong> — dit push-notifikationstoken (deaktiverer notifikationer)</li>
+      </ul>
+      <p style="margin-top:0.75rem;">Angiv i din besked hvilke data du ønsker slettet. Data slettes inden 30 dage efter anmodning.</p>
+      <a class="partial-btn" href="mailto:zeefmusic@gmail.com?subject=Anmodning%20om%20sletning%20af%20specifikke%20data">Anmod om sletning af specifikke data</a>
     </section>
 
     <hr class="divider">
